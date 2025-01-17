@@ -1,3 +1,6 @@
+# vsim -c -do "run -all; quit" Nto1_mux_tb 
+# Start time: 21:31:17 on Jan 16,2025
+# ** Note: (vsim-3812) Design is being optimized...
 # //  Questa Intel Starter FPGA Edition-64
 # //  Version 2024.1 linux_x86_64 Apr 19 2024
 # //
@@ -12,3 +15,40 @@
 # // of the Customer's facilities without the express written permission of SISW,
 # // and may not be used in any way not expressly authorized by SISW.
 # //
+# Loading sv_std.std
+# Loading work.Nto1_mux_tb(fast)
+# run -all
+# Sel:1	 Input:24	 Output:0	 Expected_Output:x	
+# Outputs Passed		Sel:1	 Input:24	 Output:0	 Expected_Output:x	
+# Sel:0	 Input:81	 Output:0	 Expected_Output:1	
+# ** Error: Outputs Not Matched: Expected Output:1	 Actual Output:0
+#    Time: 10 ns  Scope: Nto1_mux_tb.random_test File: Nto1_mux_tb.sv Line: 28
+# Sel:0	 Input:09	 Output:1	 Expected_Output:9	
+# ** Error: Outputs Not Matched: Expected Output:9	 Actual Output:1
+#    Time: 20 ns  Scope: Nto1_mux_tb.random_test File: Nto1_mux_tb.sv Line: 28
+# Sel:0	 Input:63	 Output:9	 Expected_Output:3	
+# ** Error: Outputs Not Matched: Expected Output:3	 Actual Output:9
+#    Time: 30 ns  Scope: Nto1_mux_tb.random_test File: Nto1_mux_tb.sv Line: 28
+# Sel:0	 Input:0d	 Output:3	 Expected_Output:d	
+# ** Error: Outputs Not Matched: Expected Output:d	 Actual Output:3
+#    Time: 40 ns  Scope: Nto1_mux_tb.random_test File: Nto1_mux_tb.sv Line: 28
+# Sel:0	 Input:8d	 Output:d	 Expected_Output:d	
+# Outputs Passed		Sel:0	 Input:8d	 Output:d	 Expected_Output:d	
+# Sel:1	 Input:65	 Output:d	 Expected_Output:x	
+# Outputs Passed		Sel:1	 Input:65	 Output:d	 Expected_Output:x	
+# Sel:1	 Input:12	 Output:0	 Expected_Output:x	
+# Outputs Passed		Sel:1	 Input:12	 Output:0	 Expected_Output:x	
+# Sel:0	 Input:01	 Output:0	 Expected_Output:1	
+# ** Error: Outputs Not Matched: Expected Output:1	 Actual Output:0
+#    Time: 80 ns  Scope: Nto1_mux_tb.random_test File: Nto1_mux_tb.sv Line: 28
+# Sel:1	 Input:0d	 Output:1	 Expected_Output:x	
+# Outputs Passed		Sel:1	 Input:0d	 Output:1	 Expected_Output:x	
+# Sel:1	 Input:76	 Output:0	 Expected_Output:x	
+# Outputs Passed		Sel:1	 Input:76	 Output:0	 Expected_Output:x	
+# ** Note: $stop    : Nto1_mux_tb.sv(38)
+#    Time: 110 ns  Iteration: 0  Instance: /Nto1_mux_tb
+# Break at Nto1_mux_tb.sv line 38
+# Stopped at Nto1_mux_tb.sv line 38
+#  quit
+# End time: 21:31:18 on Jan 16,2025, Elapsed time: 0:00:01
+# Errors: 5, Warnings: 0
